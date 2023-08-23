@@ -28,7 +28,7 @@ runs:
 
     - name: Retrieve secrets
       id: get-secrets
-      uses: bitwarden/gh-actions/get-keyvault-secrets@606d9e0c8e15d92c7cc0d87be24781627a1330cd
+      uses: bitwarden/gh-actions/get-keyvault-secrets@67ab95d7a466bcefdedf3f93cbc10bcff436edfe
       with:
         keyvault: "${{ inputs.azure-keyvault-name }}"
         secrets: "docker-password,
